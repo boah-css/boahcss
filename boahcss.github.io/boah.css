@@ -1,0 +1,414 @@
+/* ######################################### */
+/*                                           */
+/*               BOAH.CSS                    */
+/*              boahcss.com                  */
+/*                                           */
+/* ######################################### */
+
+/* ****************** */
+/* *  GRID SYSTEM   **/
+/* ****************** */
+
+.row, 
+.column, .column-custom {
+    box-sizing: border-box;
+    margin-top: 1em;
+}
+
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.column , .column-custom{
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.column + .column {
+    margin-left: 1.6%;
+}
+
+.column-custom + .column-custom {
+    margin-left: 1.6%;
+}
+
+.column-1 {
+    width: 6.86666666667%;
+}
+
+.column-2 {
+    width: 15.3333333333%;
+}
+
+.column-3 {
+    width: 23.8%;
+}
+
+.column-4 {
+    width: 32.2666666667%;
+}
+
+.column-5 {
+    width: 40.7333333333%;
+}
+
+.column-6 {
+    width: 49.2%;
+}
+
+.column-7 {
+    width: 57.6666666667%;
+}
+
+.column-8 {
+    width: 66.1333333333%;
+}
+
+.column-9 {
+    width: 74.6%;
+}
+
+.column-10 {
+    width: 83.0666666667%;
+}
+
+.column-11 {
+    width: 91.5333333333%;
+}
+
+.column-12 {
+    width: 100%;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 550px) {
+    .column-1, 
+    .column-2, 
+    .column-3, 
+    .column-4, 
+    .column-5, 
+    .column-6, 
+    .column-7, 
+    .column-8, 
+    .column-9, 
+    .column-10, 
+    .column-11, 
+    .column-12 {
+        float: none;
+        width: auto;
+    }
+    
+    .mobile-column-1 {
+        width: 6.86666666667%;
+        float: left;
+    }
+    .mobile-column-2 {
+        width: 15.3333333333%;
+        float: left;
+    }
+    .mobile-column-3 {
+        width: 23.8%;
+        float: left;
+    }
+    .mobile-column-4 {
+        width: 32.2666666667%;
+        float: left;
+    }
+    .mobile-column-5 {
+        width: 40.7333333333%;
+        float: left;
+    }
+    .mobile-column-6 {
+        width: 49.2%;
+        float: left;
+    }
+    .mobile-column-7 {
+        width: 57.6666666667%;
+        float: left;
+    }
+    .mobile-column-8 {
+        width: 66.1333333333%;
+        float: left;
+    }
+    .mobile-column-9 {
+        width: 74.6%;
+        float: left;
+    }
+    .mobile-column-10 {
+        width: 83.0666666667%;
+        float: left;
+    }
+    .mobile-column-11 {
+        width: 91.5333333333%;
+        float: left;
+    }
+    .mobile-column-12 {
+        width: 100%;
+        margin-left: 0;
+        float: left;
+    }
+  
+    .column + .column {
+        margin-left: 0;
+    }
+}
+
+/* ****************** */
+/**     Buttons      **/
+/* ****************** */
+
+button {
+    font-size: 1em;
+}
+
+.submit {
+	border: 1px solid #0094FF;
+	background-color: #0094FF;
+	border-radius: 0.4em;
+	width: 8em;
+	height: 2em;
+	box-shadow: 0 0.3em #27496d;
+}
+
+.submit:hover {
+	box-shadow: 0 0.2em #27496d;
+}
+
+.okay {
+	border-radius: 0.4em;
+	width: 8em;
+	height: 2em;
+	border: 1px solid #00FF6E;
+	background-color: #00FF6E;
+	box-shadow: 0 0.3em #27496d;
+}
+
+.okay:hover {
+	box-shadow: 0 0.2em #27496d;
+}
+
+.warning {
+	border-radius: 0.4em;
+	width: 8em;
+	height: 2em;
+	box-shadow: 0 0.3em #27496d;
+	border: 1px solid #FFB500;
+	background-color: #FFB500;
+}
+
+.warning:hover {
+	box-shadow: 0 0.2em #27496d;
+}
+
+.error {
+	border-radius: 0.4em;
+	width: 8em;
+	height: 2em;
+	box-shadow: 0 0.3em #27496d;
+	border: 1px solid #FF5500;
+	background-color: #FF5500;
+}
+
+.error:hover {
+	box-shadow: 0 0.2em #27496d;
+}
+
+/* ****************** */
+/**       Links      **/
+/* ****************** */
+
+.link-orange {
+	text-decoration: none;
+	color: #ef5a2a;
+}
+
+.link-orange:hover {
+	transition: 0.3s;
+	color: #f39d81;
+	text-decoration: none;
+}
+
+.link-pink {
+	color: #e250f2;
+	text-decoration: none;
+}
+
+.link-pink:hover {
+	transition: 0.3s;
+	color: #ec9ff4;
+	text-decoration: none;
+}
+
+.link-blue {
+	color: #4567ed;
+	text-decoration: none;
+}
+
+.link-blue:hover {
+	transition: 0.3s;
+	color: #91a6ed;
+	text-decoration: none;
+}
+
+.link-button-orange {
+	transition: 0.3s;
+	padding: 5px;
+	border-radius: 3px;
+	background-color: #ef5a2a;
+	text-decoration: none;
+}
+
+.link-button-orange:hover {
+	transition: 0.3s;
+	background-color: #f39d81;
+	text-decoration: none;
+}
+
+.link-button-pink {
+	transition: 0.3s;
+	padding: 5px;
+	border-radius: 3px;
+	background-color: #e250f2;
+	text-decoration: none;
+}
+
+.link-button-pink:hover {
+	transition: 0.3s;
+	background-color: #ec9ff4;
+	text-decoration: none;
+}
+
+.link-button-blue {
+	transition: 0.3s;
+	padding: 5px;
+	border-radius: 3px;
+	background-color: #4567ed;
+	text-decoration: none;
+}
+
+.link-button-blue:hover {
+	transition: 0.3s;
+	background-color: #91a6ed;
+	text-decoration: none;
+}
+
+
+/* ****************** */
+/**      Quotes      **/
+/* ****************** */
+
+.quote-pink {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: rgba(204, 51, 255, 0.3);
+	border-left: 5px solid #D000FF;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.quote-red {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: rgba(255, 128, 0, 0.3);
+	border-left: 5px solid #FF8000;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.quote-green {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: rgba(38, 255, 0, 0.3);
+	border-left: 5px solid #1AAD00;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.quote-blue {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: rgba(0, 98, 173, 0.3);
+	border-left: 5px solid #0062AD;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.quote-red:before, .quote-pink:before, .quote-green:before, .quote-blue:before {
+    content: "\00ab";}
+.quote-red:after, .quote-pink:after, .quote-green:after, .quote-blue:after {
+    content: "\00bb";}
+
+/* ****************** */
+/**    basic css     **/
+/* ****************** */
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.position-static {
+    position: static;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* ****************** */
+/**      Colors      **/
+/* ****************** */
+
+.blue {
+    background-color: #0094FF;
+}
+
+.blue-light {
+    background-color: #8aceff;
+}
+
+.green {
+    background-color: #00db5f;
+}
+
+.green-light {
+    background-color: #00FF6E;
+}
+
+.orange {
+    background-color: #FFB500;
+}
+
+.orange-light {
+    background-color: #ffde8f;
+}
+
+.red {
+    background-color: #FF5500;
+}
