@@ -1,6 +1,6 @@
 /* ######################################### */
 /*                                           */
-/*               BOAH.CSS                    */
+/*               BOAH.CSS     V 1.0          */
 /*              boahcss.com                  */
 /*                                           */
 /* ######################################### */
@@ -218,6 +218,61 @@ button {
 
 .error:hover {
 	box-shadow: 0 0.2em #27496d;
+}
+
+/* ****************** */
+/** Links as BUttons **/
+/* ****************** */
+
+.buttonlink-white {
+	font-family: avenir, arial;
+	color: white;
+	font-weight: bold;
+	padding: 0.5em;
+	border: 3px solid white;
+	border-radius: 10px;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+.buttonlink-white:hover {
+	transition: 0.3s;
+	background-color: white;
+	color: gray;
+}
+
+.buttonlink-blue {
+	font-family: avenir, arial;
+	color: #0094FF;
+	font-weight: bold;
+	padding: 0.5em;
+	border: 3px solid #0094FF;
+	border-radius: 10px;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+.buttonlink-blue:hover {
+	transition: 0.3s;
+	background-color: #0094FF;
+	color: black;
+}
+
+.buttonlink-green {
+	font-family: avenir, arial;
+	color: #00db5f;
+	font-weight: bold;
+	padding: 0.5em;
+	border: 3px solid #00db5f;
+	border-radius: 10px;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+.buttonlink-green:hover {
+	transition: 0.3s;
+	background-color: #00db5f;
+	color: black;
 }
 
 /* ****************** */

@@ -50,6 +50,8 @@
 
 /* Basic Styles */
 
+
+
 .prime-font-100 {
 	font-family: webFontOne;
 	font-weight: 100;
@@ -110,23 +112,6 @@ header h1 {
 	height: 300px;
 }
 
-.buttonlink {
-	font-family: avenir, arial;
-	color: white;
-	font-weight: bold;
-	padding: 0.5em;
-	border: 3px solid white;
-	border-radius: 10px;
-	transition: 0.3s;
-	text-decoration: none;
-}
-
-.buttonlink:hover {
-	transition: 0.3s;
-	background-color: white;
-	color: gray;
-}
-
 /* Nav */
 nav {
 	width: 100vw;
@@ -167,6 +152,11 @@ nav li:hover {
 }
 
 /* Wrapper */
+
+.startedWrapper {
+    margin: auto;
+    max-width: 600px;
+}
 
 #wrapper {
 	width: 100vw;
@@ -292,9 +282,6 @@ section .pull img {
 	margin: 0;
 }
 
-.text-left {
-	text-align: left;
-}
 
 .text-right {
 	text-align: RIGHT;
